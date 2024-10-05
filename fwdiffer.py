@@ -1,5 +1,30 @@
 #!/usr/bin/env python3
 
+"""
+Source code put in the public domain by Léandre Guiset, no Copyright
+https://github.com/ExyPnoze
+Use at your own risk
+
+History:
+    2024/10/04
+Todo:
+
+Firmware Comparison Tool
+
+FWDiffer is a Python tool designed to compare two firmware versions by 
+scanning their directories and identifying changes in files. The tool 
+recursively retrieves file paths, computes the MD5 hash for each file, 
+and compares the hashes between two versions. It generates a report of 
+three categories of changes:
+  - Modified Files: Files that exist in both versions but have different content.
+  - Added Files: Files that exist in the second version but not in the first.
+  - Deleted Files: Files that exist in the first version but are missing in the second.
+
+This tool can be useful for firmware developers, reverse engineers, or 
+anyone needing to track changes between different firmware builds.
+
+"""
+
 import os
 import hashlib
 from typing import Tuple, List
