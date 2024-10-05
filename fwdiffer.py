@@ -6,7 +6,8 @@ https://github.com/ExyPnoze
 Use at your own risk
 
 History:
-    2024/10/04
+    2024/10/04: start
+    2024/10/05: add --show options
 Todo:
 
 Firmware Comparison Tool
