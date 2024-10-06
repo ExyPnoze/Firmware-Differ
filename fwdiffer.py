@@ -9,7 +9,9 @@ History:
     2024/10/04: start
     2024/10/05: add --show options
 Todo:
-
+    Full path not only the file name.
+    output in a file.
+    
 Firmware Comparison Tool
 
 FWDiffer is a Python tool designed to compare two firmware versions by 
